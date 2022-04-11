@@ -2,7 +2,7 @@
     <div class="row no-gutters">
         <div class="col-md d-flex">
             <div class="form-group p-4 border-0">
-                <label for="#">Tour</label>
+                <label for="#">Khách Sạn</label>
                 <div class="form-field">
                     <div class="icon"><span class="fa fa-search"></span></div>
                     <input type="text" name="key_tour" value="{{ Request::get('key_tour') }}" class="form-control" placeholder="Tìm kiếm">
@@ -11,7 +11,7 @@
         </div>
         <div class="col-md d-flex">
             <div class="form-group p-4">
-                <label for="#">Ngày Khởi Hành</label>
+                <label for="#">Ngày Nhận Phòng</label>
                 <div class="form-field">
                     <div class="icon"><span class="fa fa-calendar"></span></div>
                     <input type="text" name="t_start_date" value="{{ Request::get('t_start_date') }}" class="form-control checkin_date" placeholder="Ngày Khởi Hành" autocomplete="off">
@@ -20,7 +20,7 @@
         </div>
         <div class="col-md d-flex">
             <div class="form-group p-4">
-                <label for="#">Ngày Trở Về</label>
+                <label for="#">Ngày Trả Phòng</label>
                 <div class="form-field">
                     <div class="icon"><span class="fa fa-calendar"></span></div>
                     <input type="text" name="t_end_date" value="{{ Request::get('t_end_date') }}" class="form-control checkout_date" placeholder="Ngày Trở Về" autocomplete="off">
